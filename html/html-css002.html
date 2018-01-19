@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css选择器</title>
+    <style>
+
+        /*、相邻兄弟选择器  相邻的2个同级标签 从上到下*/
+        div + p {
+            background: green;
+
+        }
+
+
+        /*、属性选择器 可以有多个属性*/
+        div[name][age] {
+            background: red;
+        }
+
+        /*、属性选择器 可以有多个属性*/
+        div[name="jack"] {
+            background: red;
+        }
+
+        /*伪类*/
+
+        /*、
+
+            ：focus 向拥有键盘输入焦点的对象
+            ：hover 想鼠标悬浮在对象上分
+        */
+         input:focus {
+            background: purple;
+             outline: none;
+             width: 150px;
+        }
+
+        p:hover {
+            background: red;
+        }
+
+
+        /*伪元素*/
+        /*第一个字母样式*/
+        p:first-letter {
+            color: blue;
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+
+<div >
+    <p>div里面的p标签</p>
+    <span>
+        <p>div里面的span</p>
+    </span>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<div name="rose">
+    <p>div里面的p标签</p>
+    <span>
+        <p>div里面的span</p>
+    </span>
+</div>
+
+
+<div name="jack">
+    <p>div里面的p标签</p>
+    <span>
+        <p>div里面的span</p>
+    </span>
+</div>
+
+<p>与div相邻的p</p>
+
+<p>与p相邻的p</p>
+
+<input placeholder="我是输入框">
+<input placeholder="我是输入框">
+
+<input placeholder="我是输入框">
+
+
+</body>
+</html>

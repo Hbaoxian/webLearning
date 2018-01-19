@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css常见选择器</title>
+
+    <style>
+        /*标签选择器*/
+        div {
+            color: red;
+        }
+        p {
+            color: blue;
+        }
+        /*类标签*/
+
+        .test01 {
+            color: yellow;
+
+        }
+
+        /*id选择器*/
+        #main {
+            background: green;
+
+        }
+
+        /*并列选择器  或关系 逻辑或*/
+
+        div, .test01 {
+            color: chartreuse;
+        }
+
+        /* 复合选择器  逻辑与  div标签并且类名为test01*/
+
+        div .test01 {
+            color: purple;
+        }
+
+        /*后代选择器 div里面的p标签*/
+
+        div p {
+            background: aqua;
+        }
+
+        /*直接后代选择器  下一层的标签 */
+        div > p {
+            color: green;
+
+        }
+
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+
+
+<div class="test01">我是div容器
+    <p>我是p标签</p>
+</div>
+<div>我是div容器</div>
+
+<a>哥们是全红的</a>
+<p class="test01"> 我是段落</p>
+<p id="main">我是段落</p>
+<p>我是段落</p>
+<p>我是段落</p>
+
+
+<br>
+<br><br><br><br><br>
+
+
+
+<div>我的新的容器
+
+    <p>段落么么哒</p>
+    <div>
+        <a href="http://www.baidu.com">我是三级链接</a>
+
+    </div>
+
+
+</div>
+
+
+</body>
+</html>

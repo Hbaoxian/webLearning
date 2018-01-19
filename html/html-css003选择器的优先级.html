@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择器的优先级</title>
+
+    <!--、快捷键  command + shift + up 移动真个代码快-->
+    <!--、快捷键  alt + shift + up 移动真个代码快-->
+
+    <style>
+        /*通配符  优先级最低  相同的选择遵守就近原则 叠加原则 不同类型选择器遵守优先原则*/
+
+
+        *{
+            color: blue!important;
+            font-size: 18px;
+        }
+
+        /*、类型器*/
+
+        div {
+            color: red;
+        }
+
+        /*、类选择器  优先级比标签选择器*/
+        .test01 {
+            color: green;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <div class="test01">我是用来测试优先级别的</div>
+
+
+</body>
+</html>

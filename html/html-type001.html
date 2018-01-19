@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>css可继承属性</title>
+
+    <style>
+        /* 可继承属性  文字控制属性*/
+        /*不可继承属性  区块*/
+       /* body {
+            color: red;
+            font-size: 30px;
+        }
+        button {
+            color: red;
+        }*/
+        .class1 {
+            background: green;
+        }
+        #main{
+            background: red;
+            width: 200px;
+            height: 30px;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <div id="main">
+        <div class="class1">我是里面的div</div>
+    </div>
+    <span>我是行内标签</span>
+    <button>我是行内块级标签</button>
+
+
+</body>
+</html>
