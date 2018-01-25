@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        #main {
+            width: 400px;
+            height: 200px;
+            background: red;
+        }
+
+        .test01 {
+            background: green;
+            float: left;
+            width: 80px;
+            height: 20px;
+        }
+        .test02 {
+            background: blue;
+            float: right;
+        }
+        .test03 {
+            width: 50px;
+            background: yellow;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<!--、标准流  从左到右，从上到下-->
+
+<!--、脱离标准流 float left  absolute 生成绝对定位元素  绝对布局 针对父元素
+       fix 生成绝对元素布局，针对浏览器
+-->
+
+<!--任一标签一单脱离标准流，就被强制转化为行内块级标签-->
+
+
+    <div id="main">
+        <div class="test01">
+            1
+        </div>
+
+        <div class="test02">
+            2
+        </div>
+
+        <div class="test03">
+            3
+        </div>
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RGBA透明度 -- 新特性</title>
+
+    <!--取值 0 -- 255 -->
+
+    <style>
+
+        div {
+            margin: 50px;
+            width: 200px;
+            height: 200px;
+            /*设置盒子阴影*/
+            box-shadow:  30px 10px 20px #888888;
+
+           /* !*圆角*!
+            border-radius: 20px;*/
+
+            border-top-left-radius: 20px;
+
+            /*边框图片*/
+
+
+            /*!*形变*!
+            tran*/sform: none;
+
+
+
+        }
+        .test01 {
+          background: rgba(255,0,0,1.0);
+        }
+        .test02 {
+            background: rgba(255,0,0,0.8);
+        }
+
+        .test03 {
+            background: rgba(255,0,0,0.6);
+        }
+        .test04 {
+            background: rgba(255,0,0,0.4);
+        }
+        .test05 {
+            background: rgba(255,0,0,0.2);
+        }
+        .test06 {
+            background: rgba(255,0,0,0.0);
+        }
+
+        /*文字阴影*/
+        p {
+            font-size: 30px;
+            color: red;
+            text-shadow: 30px 10px 20px chartreuse;
+        }
+
+        /*阴影与圆角阴影*/
+
+
+
+
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+
+    <div class="test01">1</div>
+    <div class="test02">2</div>
+    <div class="test03">3</div>
+    <div class="test04">4</div>
+    <div class="test05">5</div>
+    <div class="test06">6</div>
+    <p>我是一个p标签</p>
+
+
+</body>
+</html>

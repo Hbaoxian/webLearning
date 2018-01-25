@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css布局</title>
+
+    <style>
+        .test01 {
+            background: blue;
+            position: absolute;
+            top: 20px;
+            right: 0px;
+        }
+        /*脱离标准流的标签 就变成行内块级标签*/
+        /* position 悬浮窗 */
+        #main {
+            background: red;
+            margin: 60px;
+            width: 400px;
+            height: 200px;
+            /*、绝对定位*/
+            position: relative;
+
+        }
+        /**/
+        .test02 {
+            background: purple;
+            position: absolute;
+            bottom: 20px;
+            left: 100px;
+            right: 100px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="main">
+        <div class="test01">
+            22131
+        </div>
+    </div>
+
+
+    <div class="test02">相对浏览器进行定位</div>
+
+
+</body>
+</html>
