@@ -1,7 +1,87 @@
 
-#header{
-    background: red;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+
+}
+
+/*头部样式*/
+.header{
+    text-align: right;
+    height: 40px;
+    line-height: 40px;
+}
+
+.header a{
+    margin: 0 5px;
+    padding: 0 5px ;
+    /*字体加粗*/
+    font-weight: bold;
+
+}
+
+.header #moreproduce{
+    background: #398bfb;
+    /*<a>标签不显示下划线*/
+    text-decoration: none;
+}
+
+.content {
+    text-align: center;
+}
+
+.search-content {
+    text-align: center;
+    line-height: 34px;
+}
+
+.search-content #searchBox{
+    width: 500px;
+    height: 30px;
+}
+.search-content #searchBtn{
+    width: 100px;
+    height: 34px;
+    background: slategray;
+    margin: 0 0 0 -5px;
+}
+
+.footer1-content{
+    /*display: inline-block;*/
+    padding: 30px 5px;
+}
+
+
+.footer1-content a:hover {
+   opacity: 0.6;
+}
+
+.footer1-content a{
+    margin: 5px 5px;
+
+}
+
+.footer2-content {
 
 
 }
+
+
+
+
+
+
+
+.footer {
+    text-align: center;
+}
+
+body {
+    background: lightslategray;
+
+}
+
 
