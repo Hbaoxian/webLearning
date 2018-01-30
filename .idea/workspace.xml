@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5138eeec-de2c-447f-948e-3d4c354d14d4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/hbaoxianLoginIndex.css" afterPath="$PROJECT_DIR$/css/hbaoxianLoginIndex.css" />
-      <change beforePath="$PROJECT_DIR$/html/hbaoxianLoginIndex.html" afterPath="$PROJECT_DIR$/html/hbaoxianLoginIndex.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/animalShow.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/html/animalShow.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/animal1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/animal2.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/animal3.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/animal4.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/animal5.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/img/back6.jpg" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,20 +47,54 @@
       <file leaf-file-name="hbaoxianLoginIndex.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/hbaoxianLoginIndex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="405">
               <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hbaoxianLoginIndex.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hbaoxianLoginIndex.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/hbaoxianLoginIndex.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="113" column="13" lean-forward="true" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+            <state relative-caret-position="389">
+              <caret line="119" column="16" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animalShow.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/animalShow.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-231">
+              <caret line="48" column="50" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animalShow.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/animalShow.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="126" column="37" lean-forward="true" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animal1.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/animal1.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="back6.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/back6.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -82,6 +123,8 @@
         <option value="$PROJECT_DIR$/css/baiduIndex.css" />
         <option value="$PROJECT_DIR$/html/hbaoxianLoginIndex.html" />
         <option value="$PROJECT_DIR$/css/hbaoxianLoginIndex.css" />
+        <option value="$PROJECT_DIR$/html/animalShow.html" />
+        <option value="$PROJECT_DIR$/css/animalShow.css" />
       </list>
     </option>
   </component>
@@ -92,7 +135,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1028" />
+    <option name="x" value="-1030" />
     <option name="y" value="-413" />
     <option name="width" value="989" />
     <option name="height" value="1047" />
@@ -178,10 +221,10 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
@@ -213,18 +256,18 @@
       <workItem from="1516944707633" duration="236000" />
       <workItem from="1516945120646" duration="3436000" />
       <workItem from="1517295034897" duration="4381000" />
-      <workItem from="1517316675352" duration="1692000" />
+      <workItem from="1517316675352" duration="6305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9745000" />
+    <option name="totallyTimeSpent" value="14358000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1028" y="-413" width="989" height="1047" extended-state="0" />
+    <frame x="-1030" y="-413" width="989" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18200202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2578362" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -445,14 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/baiduIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/html-css常用属性001.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -467,18 +502,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/hbaoxianLoginIndex.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="119" column="16" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/baiduIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/hbaoxianLoginIndex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="405">
           <caret line="27" column="7" lean-forward="false" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/hbaoxianLoginIndex.css">
+    <entry file="file://$PROJECT_DIR$/img/back6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/animal1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/animalShow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="113" column="13" lean-forward="true" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+        <state relative-caret-position="-231">
+          <caret line="48" column="50" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/animalShow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="126" column="37" lean-forward="true" selection-start-line="126" selection-start-column="37" selection-end-line="126" selection-end-column="37" />
           <folding />
         </state>
       </provider>
