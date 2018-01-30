@@ -1,0 +1,104 @@
+
+/*通配符 有时候对翻译容易出现问题  正确的做法，是用到的标签都写一遍*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*不平铺*/
+    background: url("/img/back3.jpg") no-repeat;
+    /*拉伸*/
+    background-size: cover;
+    text-align: center;
+}
+
+#panel {
+    background: white;
+    /*改变标签 大小根据内容来*/
+    display: inline-block;
+    /*从写居中*/
+    text-align: left;
+    margin-top: 150px;
+    /*、填充*/
+    padding: 30px;
+    /*设置圆角*/
+    border-radius: 5px;
+    /*设置阴影*/
+    box-shadow: -20px 20px 50px;
+}
+
+/*面板头部*/
+#head {
+    /*重写属性*/
+    text-align: center;
+}
+
+#head h2{
+    font-size: 20px;
+    border-bottom: 1px solid red;
+    /*让线条往下走，padding*/
+    padding: 10px;
+    display: inline-block;
+}
+
+#content {
+
+}
+
+.acountAndPwd {
+    margin-bottom: 15px;
+    /*!**!height: 4px;*/
+    position: relative;
+    border-radius: 10px;
+
+}
+.acountAndPwd img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 5px;
+    top: 5px;
+}
+.acountAndPwd input{
+    width: 100%;
+    height: 30px;
+
+    /*让填充往里面走*/
+    box-sizing: border-box;
+    /*移动光标*/
+    padding-left: 30px;
+    /*重写*/
+    border: 1px solid #dddddd;
+}
+
+a img{
+    width: 20px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 13px;
+    color: gray;
+}
+
+#setting {
+    margin-bottom: 15px;
+}
+.forget-pwd {
+    float: right;
+}
+
+.loginBtn {
+    width: 100%;
+    height: 35px;
+    background: orangered;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.loginBtn :focus {
+    outline: none;
+}
