@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+       /* alert('你好，世界');*/
+       /*console.log('输入语句');*/
+
+       /*js基本数据类型*/
+       var age = 20;
+       var money = 100.09;
+       var name = 'jack';
+       name2 = 'rose';
+       var result = true;//false
+       var score = null;
+
+        /*字符串拼接*/
+        var newName = name + 'hank' + name2;
+        console.log(newName );
+
+        //练习 任何数据类型与字符串相加都等于 字符串 从左往右执行
+        var str = 10 + 10 + '10';
+        console.log(str);//2010
+
+        var str1 = '10' + 10 + 20;
+        console.log(str1);//101020
+
+        var str3 = (10 + '10') + 10;
+        console.log(str3);//101010
+
+
+        var str4 = '10' + (10 + 10);
+        console.log(str4);//1020;
+
+        /*打印数据真实类型*/
+        console.log(typeof  age, typeof name2, typeof name2);
+
+        /*、特殊数据*/
+        /*数组*/
+
+        var arr = [];
+        //数组里面加数据
+        arr.push(name);
+         console.log(arr);
+        //取数据
+        //  var data1 = arr.pop();
+         console.log(arr);
+
+         for (var i = 0; i< arr.length; i++) {
+             var element = arr[i];
+             console.log(element);
+         }
+
+         //element 不是数组元素，是角标
+        for (var  element in  arr) {
+            console.log('element' + element);
+        }
+
+        /*arr 功能 获取最大值*/
+        var number = [10,5, ,-9];
+        console.log('max is' + Math.max.apply(this, number));
+
+        /*指定数据类型 new对象*/
+        var x = new String();
+
+        /*js 所有属性都是对象*/
+    </script>
+
+    <script>
+        /*js中的函数*/
+        /*、加法运算*/
+
+        /*没有返回值类型， 也没有参数类型*/
+        function sum(num1, num2) {
+            return num1 + num2;
+        }
+
+        var totle = sum(20 , 30);
+        console.log('totle' + totle);
+
+
+        /*万能加法函数*/
+        function sum2(numers) {
+            var  result = 0;
+            for (var  index in numers) {
+                result += numers[index];
+            }
+            return result;
+        }
+        console.log(sum2([123,123]));
+
+
+        /*匿名函数  可以封装代码块  可以当做block块使用*/
+        var res =function () {
+            console.log('我是匿名函数');
+        }
+        res();
+        function fuc(block) {
+            block();
+        }
+        fuc(res);
+
+
+        /*js中的闭包*/
+        function add1(number1) {
+            return function (number2) {
+                return number1 + number2;
+            }
+        }
+        /*将函数当做返回值*/
+        var re1 = add1(1)
+        var re2 = re1(5);
+        console.log(re2);
+
+        /*作用域 事由函数指定的， 不是已大括号指定的*/
+
+
+
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

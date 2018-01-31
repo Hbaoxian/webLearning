@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建对象</title>
+
+    <script>
+
+        /*创建对象*/
+        var dog = {};
+        console.log(dog + 'dog' + typeof dog);
+
+        var dog1 = {
+            name: "xiaohuang",
+            age : 19,
+            height:1.2,
+            dogFriend:['laifu','zanshan'],
+            call:function () {
+                console.log(this.name + 'call');
+            },
+            /*this就是次函数属于哪个对象，this就代表哪个对象*/
+            run: function () {
+                console.log(this.name + 'run');
+            }
+        }
+
+        console.log(dog1);
+
+        console.log(dog1.run() + dog1.call());
+        /*、创建对象方法， 构造方法， 大括号创建*/
+
+
+        /*内置对象*/
+        /*、window*/
+        //1 所有的全局变量都是window的属性
+        //2 所有的全局函数都是window的方法
+        //3 全局的变量
+
+        var  age1 = 17;
+        console.log(window.age1);
+        /*window.被隐藏了*/
+        console.log(age1);
+
+        function Dog() {
+            console.log('这是一只狗');
+        }
+
+        window.Dog();
+
+
+        function Presion() {
+            console.log(this);
+        }
+
+        Presion();//打印window
+        new Presion(); // 打印present对象
+
+        /*、第二作用
+        *  动态跳转
+        *
+        *
+        *
+        * */
+
+        //window.alert('');
+        //动态跳转
+        // window.location.href='http:www.baidu.com';
+
+        /*、Document */
+        // 1 可以动态获取网页中所有便签
+        // 2 可以对获取到的所有标签进行增删改查
+        //增加
+        // document.write('hello world');
+        // document.write(' <input type="file">')
+        //
+        function btnClick() {
+            var image =  document.getElementById('showImage');
+            console.log('btnClick');
+            image.src= '/img/animal2.jpeg';
+        }
+
+
+        function btnClick1() {
+            var image =  document.getElementsByClassName('icon')[0];
+            var btn = document.getElementsByTagName('button')[1];
+            console.log('222');
+            /*隐藏属性*/
+            image.hidden = !image.hidden;
+             console.log('111');
+             /*icon  隐藏*/
+             // image.style.display = 'none';
+             if (image.hidden) {
+                 btn.innerText = '显示';
+             }else {
+                 btn.innerText = '隐藏';
+             }
+
+        }
+
+        function nextImage() {
+            var maxIndex = 9;
+            var minIndex = 1;
+            var  currentIndex = minIndex;
+            var  image = document.getElementsByClassName('index')[0];
+
+
+
+        }
+
+
+    </script>
+</head>
+<body>
+
+    <img id="showImage" src="/img/animal2.jpeg">
+    <p>这里的风景很美</p>
+    <p></p>
+    <button onclick="btnClick()">更换图片</button>
+
+
+    <img class="icon" src="/img/animal3.jpeg">
+    <p>这里的风景很美</p>
+    <p></p>
+    <!---->
+    <button onclick="btnClick1()">隐藏</button>
+
+
+
+    <img class="index" src="/img/animal3.jpeg">
+    <p>图片切换</p>
+    <p></p>
+    <!---->
+    <button onclick="nextImage()">隐藏</button>
+
+
+
+</body>
+</html>
