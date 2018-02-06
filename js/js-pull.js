@@ -12,12 +12,71 @@ window.onload = function () {
     /*监听网页滚动时间*/
 
     window.onscroll = function () {
+        /*判断是否符合加载新图的条件*/
+        if (checkWillLoad()) {
 
-       
+            var data = {'dataiamge':[
+                    {'img':'1'},
+                    {'img':'1'},
+                    {'img':'2'},
+                    {'img':'3'},
+                    {'img':'4'},
+                    {'img':'1'},
+                    {'img':'2'},
+                    {'img':'3'},
+                    {'img':'4'},
+                    {'img':'1'},
+                    {'img':'2'},
+                    {'img':'3'},
+                    {'img':'4'},
+                ]}
 
+                for (var  i = 0 ; i < data.dataiamge.length ; i++) {
+                    var box = document.createElement('div');
+                    box.className = 'box';
+                    $('main').appendChild(box);
+
+                    /*创建pic*/
+
+                    var newPic = document.createElement('div');
+                    newPic.className='pic';
+                    box.appendChild(newPic);
+
+
+                    var newImg = document.createElement('img');
+                    newImg.src = '/img/pic' + data.dataiamge[i].img +'.png';
+                    newPic.appendChild(newImg);
+
+                }
+                waterfall('main', 'box');
+
+        }
     };
 
 
+}
+
+/*判断是否加载新的元素*/
+function checkWillLoad() {
+    /*取出所有的盒子*/
+    var allBox = $('main').getElementsByClassName('box');
+
+    /*、拿到最后一个盒子*/
+    var lastBox = allBox[allBox.length - 1];
+    /*求出最后一个盒子的头部偏移量*/
+    var lastBoxOffsetTop = lastBox.offsetTop;
+    /*求出浏览器的高度 有的浏览器拿不到  通过标准模式和混杂模式  所有浏览器能拿到的高度遍历 */
+    var screenHeight = document.body.offsetHeight || document.documentElement.clientHeight;
+    //求出页面的偏移量
+    // alert(screenHeight);
+
+    /*顶部的偏移量*/
+    var scrollTopHeight = document.body.scrollTop;
+
+    // alert(scrollTopHeight);
+    // alert('lastBoxOffsetTop:' + lastBoxOffsetTop + ' scrollTopHeight :' + scrollTopHeight + ' screenHeight' + screenHeight)
+
+    return lastBoxOffsetTop  >   screenHeight ;
 }
 
 

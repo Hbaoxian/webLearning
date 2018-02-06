@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>认识我的jquery</title>
+</head>
+<body>
+
+
+<!--
+    js存在的问题
+
+    1 浏览器兼容问题
+    2 存在复杂的dom操作
+    3 复制的动画和特性
+    4 网络数据存在跨域问题
+
+
+    query优势
+    1 几乎不存在浏览器兼容问题
+    2 轻松实现dom操作
+    3 多种网络请求方案
+
+-->
+
+    <div id="main">
+
+        <div class="word">
+            <p>我今天好开心</p>
+        </div>
+
+        <div class="pic">
+            <img src="/img/animal1.jpg">
+        </div>
+
+        <div class="pic">
+            <img src="/img/animal1.jpg">
+        </div>
+
+    </div>
+
+
+
+
+
+<script  src="/js/jquery.min.js"/>
+
+<script>
+
+    /*$代表一个jquery对象*/
+    console.log('11');
+    console.log($('#main .word'));
+    /*拿到对应标签的属性*/
+    $('img').attr('src','/img/animal2.jpg')
+    /*修改标签中的熟悉*/
+
+    /*、批量修改熟悉*/
+
+    /*查看标签的类容*/
+
+    /*获取事件类型*/
+
+
+</script>
+
+</body>
+</html>

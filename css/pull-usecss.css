@@ -1,0 +1,36 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    /*定位*/
+    position: relative;
+
+    /*width: 600px;*/
+    /*margin: 0 auto;*/
+    /*多兰布局 达到瀑布流效果*/
+
+    -webkit-column-width: 202px;
+    -moz-column-width: 202px;
+    column-width: 202px;
+
+}
+
+.box {
+    padding: 10px 0 0 10px;
+    float: left;
+
+}
+
+.pic{
+
+    border: 1px solid #dddddd;
+}
+
+.pic img{
+    width: 130px;
+    padding: 10px;
+
+}
